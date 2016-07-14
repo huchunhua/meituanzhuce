@@ -1,0 +1,208 @@
+.clear:after{
+	content:"";
+	display: block;
+	clear:both;
+}
+.head{
+	margin:0 auto;
+	padding:10px 0;
+	vertical-align: center;
+	border-bottom: 2px solid #2bb8aa;
+}
+.head .logo{
+	width:54px;
+	height: 36px;
+	background-image:url(../img/logo.png);
+	background-position:-626px -722px;
+	float:left; 
+}
+.head .land{
+	float: right;
+}
+.land span{
+	font-size: 14px;
+	margin-right: 10px;
+}
+.land a{
+	font-size: 12px;
+	padding:6px 14px;
+	color:#fff;
+	background-color: #2db3a6;
+	border-radius:2px;
+	text-decoration: none;
+}
+.land a:hover{
+	background-color: #2eb7aa;
+}
+.content{
+	margin:0 auto;
+	padding-top: 30px;
+	width:980px;
+}
+.content .yxzc-wrap{
+	display: block;
+}
+.content .sjzc-wrap{
+	display: none;
+}
+.form-wrap .zcxz{
+	margin-bottom: 30px;
+    border-bottom: 2px solid #EEE;
+    font-size: 14px;
+}
+.zcxz .zc{
+	padding: 10px 20px;
+	margin-bottom:-2px;
+	float: left;
+	border-bottom: 2px solid #EEE;
+}
+.zcxz .zc:hover{
+	border-bottom: 2px solid #2bb8aa;
+	color:#2bb8aa;
+}
+.zc i{
+	display: block;
+	float: left;
+	height: 13px;
+	margin:2px 4px;
+    background-image: url(../img/logo.png);
+}
+.yxzc i{
+	width: 14px;
+	background-position: -680px -677px;
+}
+.sjzc i{
+	width: 9px;
+	background-position:-1268px -545px;
+}
+.form-sheet .form-feild{
+	position: relative;
+}
+.form-feild>div{
+	padding: 8px 0 8px 110px;
+	position: relative;
+}
+.form-feild label{
+	position: absolute;
+    left: 0;
+    width: 100px;
+    padding-top: 6px;
+    font-size: 14px;
+    text-align: right;
+    color: #333;
+}
+.form-feild input{
+	width: 248px;
+    height: 24px;
+    padding: 5px;
+    border: 1px solid #aaa;
+    line-height: 24px;
+}
+.form-feild .tips{
+	display: inline-block;
+    margin-left: 4px;
+    padding: 6px 0;
+    line-height: 24px;
+    font-size: 12px;
+    color: #666;
+    vertical-align: top;
+}
+.form-feild .tipsz{
+	color:#999;
+}
+.form-feild #nts{
+	display: none;
+}
+.form-feild .tip{
+	display: none;
+}
+.tips i{
+	background-image: url("../img/icon.png");
+	background-position: 0 -296px;
+	display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+    overflow: hidden;
+    vertical-align: -3px;
+}
+.form-feild div.password-wrap-new{
+	padding-bottom: 27px;
+}
+.password-wrap .password-str{
+	position: absolute;
+    width: 260px;
+    top: 50px;
+    left: 110px;
+    background: #eee;
+}
+.password-str .password-str-leb{
+	display: block;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    width: 85px;
+    border-right: 2px solid #fff;
+    color: #fff;
+}
+.password-str .password-str-qiang{
+	border-right: 0;
+}
+/*手机注册*/
+.form-feild .freeget{
+	display: block;
+	margin-top: 8px;
+	padding: 1px 8px 0;
+    font-size: 12px;
+    width: 160px;
+    color: #333;
+    background-color: #dedede;
+    border: 1px solid #e3e3e3;
+    border-bottom: 1px solid #aaa;
+}
+/*协议注册*/
+.form-feild .btn{
+	display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+    padding: 7px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    height: 40px;
+    width: 180px;
+    letter-spacing:1.4px;
+    text-align: center;
+    text-decoration: none;
+    border-width: 0 0 1px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #008177;
+    color: #fff;
+    background-color: #2db3a6;
+}
+.form-feild .btn:hover{
+	background-color: #2eb7aa;
+}
+body .term{
+	width: 880px;
+	padding: 3px 0px 3px 110px;
+	margin:0 auto 70px;
+}
+.term .xy{
+	font-size: 13px;
+	color: #2bb8aa;
+    text-decoration: none;
+}
+body .foot{
+	border-top: 1px solid #EEE;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 13px;
+    color:#999;
+}
+.foot a{
+	color:#999;
+	text-decoration: none;
+}

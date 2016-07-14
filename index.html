@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>美团注册</title>
+	<link rel="stylesheet" rev="stylesheet" href="./css/style.css">
+	<script type="text/javascript" src="./js/js.js"></script>
+</head>
+<body>
+	<div class="head clear">
+		<a class="logo"></a>
+		<div class="land">
+			<span>已有美团账号？</span>
+			<a href="">登录</a>
+		</div>
+	</div>
+	<div class="content">
+			<div class="form-wrap">
+				<div class="zcxz clear">
+					<div class=" zc yxzc clear" id="zctypeyx"onclick="Changeyxzc()">
+						<i id="icon-yx"></i>
+						邮箱注册
+					</div>
+					<div class="zc sjzc" id="zctypesj" onclick="Changesjzc()">
+						<i id="icon-sj"></i>
+						手机注册
+					</div>
+				</div>
+			</div>
+			<div class="form-sheet yxzc-wrap" id="yxzc" >
+				<form>
+					<div class="form-feild">
+						<div class="email-wrap">
+							<label>邮箱</label>
+							<input type="text" id="email" onfocus="xs()" onblur="IsEmail()"/>
+							<span class="tips tipsz" id="tipsz">注册成功后全美团通用</span>
+							<span class="tips tip" id="email-tips">
+								<i class="iconms"></i>
+								<div id="msemail"></div>
+							</span>
+						</div>
+						<div class="name-wrap">
+							<label>用户名</label>
+							<input type="text" id="name" onfocus="Nton()" onblur="IsName()"/>
+							<span class="tips tipsz" id="nts">
+								<i id="iconname"></i>
+								<div id="namets"></div>
+							</span>
+							<span class="tips tip" id="name-tips">
+								<i class="iconms"></i>
+								<div id="msname"></div>
+							</span>
+						</div>
+						<div class="password-wrap password-wrap-new">
+							<label>创建密码</label>
+							<input type="password" id="passwordm" onkeyup="Str()" onblur="IsPasswordm()"/>
+							<span class="tips tip" id="password-tipsm">
+								<i class="iconms"></i>
+								<div id="msnewp"></div>
+							</span>
+							<div class="password-str clear">
+								<div class="password-str-leb" id="weakm">弱</div>
+								<div class="password-str-leb" id="zhongm">中</div>
+								<div class="password-str-leb password-str-qiang" id="qiangm">强</div>
+							</div>
+						</div>
+						<div class="password-wrap password-wrap-again">
+							<label>确认密码</label>
+							<input type="password" id="password-again"  onblur="Countrast()"/>
+							<span class="tips tip" id="password-tips-ct">
+								<i class="icons"></i>
+								<div id="mssurep"></div>
+							</span>
+						</div>
+					</div>
+					<div class="form-feild">
+						<div>
+							<input type="submit" value="同意以下协议并注册" class="btn"></input>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="form-sheet sjzc-wrap" id="sjzc" >
+				<form>
+					<div class="form-feild">
+						<div class="tel-wrap">
+							<label>手机号</label>
+							<input type="text" id="tel" onfocus="xs()" onblur="IsTel()"/>
+							<span class="tips tipsz" id="tipszsj">注册成功后全美团通用</span>
+							<span class="tips tip" id="tel-tips">
+								<i class="icons"></i>
+								<div id="mstel"></div>
+							</span>
+							<input type="button" class="freeget" id="freeget"value="免费获取短信动态码" onclick="js()" />
+						</div>
+						<div class="dpw-wrap">
+							<label>短信动态码</label>
+							<input type="text" id="dpw" onblur="IsDpw()"/>
+							<span class="tips tipsz" id="dts"></span>
+							<span class="tips tip" id="dpw-tips">
+								<i class="icons"></i>
+								<div id="msdpw"></div>
+							</span>
+						</div>
+						<div class="password-wrap password-wrap-new">
+							<label>创建密码</label>
+							<input type="password" id="password" onkeyup="Str()" onblur="IsPassword()"/>
+							<span class="tips tip" id="password-tips">
+								<i class="icons"></i>
+								<div id="msnewpsj"></div>
+							</span>
+							<div class="password-str clear">
+								<div class="password-str-leb" id="weak">弱</div>
+								<div class="password-str-leb" id="zhong">中</div>
+								<div class="password-str-leb password-str-qiang" id="qiang">强</div>
+							</div>
+						</div>
+						<div class="password-wrap password-wrap-again">
+							<label>确认密码</label>
+							<input type="password" id="password-againsj"  onblur="Countrastsj()"/>
+							<span class="tips tip" id="password-tips-ctsj">
+								<i class="icons"></i>
+								<div id="mssurepsj"></div>
+							</span>
+						</div>
+					</div>
+					<div class="form-feild">
+						<div>
+							<input type="submit" value="同意以下协议并注册" class="btn"></input>
+						</div>
+					</div>
+				</form>
+			</div>
+	</div>
+	<div class="term">
+		<a href="http://www.meituan.com/about/terms" class="xy">
+			《美团网用户协议》
+		</a>
+	</div>
+	<div class="foot">
+		<p>
+        	©
+			<a href="http://www.meituan.com/">
+				meituan.com
+			</a>
+			&nbsp
+			<a href="http://www.miibeian.gov.cn/">
+				京ICP证070791号
+			</a>
+			&nbsp京公网安备11010502025545号
+		</p>
+	</div>
+</body>
+</html>
+
